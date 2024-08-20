@@ -1,0 +1,30 @@
+.container {
+    padding: 20px;
+    border: 2px solid black;
+    background-color: lightblue;
+    transition: background-color 0.5s ease; /* Add smooth transition */
+}
+
+.changed {
+    background-color: lightcoral;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Add button scale animation */
+}
+
+button:active {
+    transform: scale(0.95); /* Button scales when clicked */
+}
+
+p {
+    font-size: 16px;
+    transition: color 0.3s ease, transform 0.3s ease; /* Text color and scale transition */
+}
+
+.changed p {
+    color: white;
+    transform: scale(1.2); /* Scale text when changed */
+}
